@@ -1,1 +1,17 @@
-/* Add CSS styling here */
+
+nav{background-color: blue}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.picture{
+    display: flex;
+}
+
+.img1{
+    flex: 1.3344;
+}
+
