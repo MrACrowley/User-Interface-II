@@ -1,1 +1,89 @@
-/* Add CSS styling here */
+
+
+
+header{
+    background-color: Green;
+    border-bottom: 1px solid red;
+    margin: 3%;
+}
+
+
+
+nav{
+    background-color: black;
+}
+
+h2{
+
+}
+.A{
+    width: 270px;
+    height: auto;
+    padding: 1%;
+    float: left;
+}
+
+/* .no{
+    display: flex;
+    flex-direction: row;
+    
+} */
+.me{
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: Green;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-variant-caps: titling-caps;
+    align-content: center;
+}
+
+.B{
+    align-self: center;
+}
+
+@media(max-width: 500px){
+    header{
+    background-color: Black;
+    border-bottom: 3px solid gold;
+    color: silver;
+    width: 125%;
+
+}
+    .Hi{
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+    nav{
+        background-color: purple;
+        
+    }
+
+    footer{
+        background-color: purple;
+        color: green;
+        width: 125%;
+    }
+    footer nav{
+        background-color: black;
+    }
+
+    .no{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: fit-content;
+        max-height: fit-content;
+        object-fit: scale-down;
+    }
+}
+
+
+
